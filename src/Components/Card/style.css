@@ -1,0 +1,96 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    margin-bottom: 25px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 5px hsl(180, 29%, 50%, 0.1);
+}
+
+.border {
+    border-left: solid 5px hsl(180, 29%, 50%);
+}
+
+.card div {
+    display: flex;
+    align-items: center;
+}
+
+.card .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.card button {
+    background: hsl(180, 31%, 95%);
+    border: 0;
+    border-radius: 3px;
+    padding: 7px;
+    color: hsl(180, 29%, 50%);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: hsl(180, 29%, 50%);
+    color: white;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h5 + .group {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.group label {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.new {
+    background: hsl(180, 29%, 50%);
+}
+
+.featured {
+    background: hsl(180, 14%, 20%);
+}
+
+.desc h5 {
+    color: hsl(180, 14%, 20%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.desc h5:hover {
+    color: hsl(180, 29%, 50%);
+}
+
+.group h4 {
+    color: hsl(180, 29%, 50%);
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.group p {
+    color: hsl(180, 8%, 52%);
+    font-size: 12px;
+    margin-right: 15px;
+}
